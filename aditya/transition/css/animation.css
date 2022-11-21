@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+.div1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+
+   animation-name: move;
+   animation-duration: 5s;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.div2{
+    background-color: rgb(136, 0, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+
+   animation-name: move;
+   animation-duration: 5s;
+   animation-delay: 1.1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+@keyframes move{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top:0px;
+        left: 600px;
+        background-color: aquamarine;
+    }
+    50%{
+        top: 600px;
+        left: 600px;
+        background-color: cadetblue;
+    }
+    75%{
+        top: 600px;
+        left: 0px;
+        background-color: darkcyan;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+
+}
