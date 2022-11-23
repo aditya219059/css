@@ -1,0 +1,54 @@
+header{
+    /* background-color: black; */
+
+}
+.container{
+    display: flex;
+    background-color: aqua;
+}
+header ul {
+    list-style-type: none;
+}
+header ul li {
+    display: inline;
+    margin-left: 40px;
+}
+.left-header{
+    flex: 50%;
+    /* background-color: aqua; */
+}
+.right-header{
+    flex: 50%;
+    text-align: right;
+    /* background-color: blanchedalmond; */
+}
+nav{
+    display: flex;
+}
+.d1{
+    height: 100px;
+    width: 20%;
+    background-color: rgb(70, 224, 173);
+    padding: 20px;
+    text-align: center;
+}
+.d2{
+    height: 100px;
+    width: 80%;
+    background-color: rgb(31, 159, 116);
+    text-align: right;
+    padding: 20px;
+}
+.d2 ul li{
+    display: inline;
+}
+a{
+    padding-left: 20px;
+}
+.d2 ul li a:hover{
+    background-color: rgba(16, 16, 252, 0.279);
+    /* transition-delay: 0.5s; */
+    transition-duration: 1s;
+    tr
+
+}
